@@ -1,0 +1,1233 @@
+/*---------------------HEADER-----------------------------------------------------------------------------------------*/
+
+
+header .my-nav{background-color: #2f312e;}/*COLOR DE FONDO NAVBAR*/
+header .my-nav .navbar-brand{margin-left: 02%; color: #f3ed17;}/*LE DOY UN MARGEN A NB ELECTRONICA Y COLOR*/
+header .my-nav .navbar-brand:hover{color: white;}/*COLOR DE NB ELECTRONICA CUANDO PASO CON EL MOUSE*/
+header .my-nav .nav-link{color: grey;}/*COLOR DEL MENU CUANDO NO ESTA ACTIVO*/
+header .my-nav .nav-link:hover{color: white;}/*COLOR DEL MENU CUANDO PASO CON EL MOUSE*/
+header .my-nav .active{color: white;} /*COLOR DEL MENU CUANDO ESTA SELECCIONADO*/
+header .my-nav .fa-battle-net{margin-right: 06%;}/*LE DOY MARGEN ENTRE EL ICONO Y NB ELECTRONICA*/
+
+
+/*Agrego el botón del navbar porque al editar los colores se oculta*/
+.custom-toggler.navbar-toggler{border-color: white;}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+/*Separo un poco los botones del menu*/
+header  .home .navbar-nav{margin-left:  2.5%;} 
+
+header .login .navbar-nav{margin-left: 1.4%;}
+
+header .admin .navbar-nav{margin-left: 4.5%;}
+
+/*Le doy color a los items del dropdowm Productos cuando pasa el mouse por arriba*/
+.dropdown-item:hover{
+	background-color: #2f312e;
+	color: #f3ed17;
+}	
+
+/*-----------------FIN HEADER-----------------------------------------------------------------------------------------*/
+
+
+/*-----------------INICIO DE SESIÓN----------------------------------------------------------------------------------*/
+.inicio-sesion .modal-header h4{
+	margin-left: 24%;
+	color: yellow;
+}
+
+.inicio-sesion .modal-body .container form{
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+.inicio-sesion .modal-content{
+	background-color: #f2f2f2;
+	border-radius: 14px;
+	
+}
+
+
+.inicio-sesion .modal-header{
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	background-color: #404040;
+}
+
+.inicio-sesion .modal-footer{
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	background-color: #404040;
+}
+
+.inicio-sesion .regis{
+	margin-left: 10%; 
+}
+
+/*---------------FIN INICIO DE SESIÓN-------------------------------------------------------------------------------*/
+
+/*---------------RECUPERAR CONTRASEÑA-------------------------------------------------------------------------------*/
+.recuperarCon form {
+	margin-top: 20px;
+}
+
+/*LE DOY FORMATO AL FONDO DEL FORMULARIO*/
+.recuperarCon .tumb {
+	padding-top: 0px;
+	margin-top: 60px;
+	margin-bottom: 50px;
+	border-radius: 10px;
+	background-color:  #2f312e;
+}
+
+/*LE DOY FORMATO AL TITULO DEL FORMULARIO */
+.recuperarCon .tumb h4 {
+	text-align: center;
+	color: white; 
+	padding-top: 20px;
+	font-weight: lighter;
+	font-style: italic;	
+}
+.recuperarCon  h5 {
+	margin-left: 10%;
+	color: white; 
+	padding-top: 20px;
+	font-weight: lighter;
+	font-style: italic;	
+}
+
+
+.recuperarCon .btn-primary{
+	margin-left: 10px;
+}
+
+/*SEPARO UN POCO EL CONTENEDOR DEL FOOTER*/
+.misDatos .container{
+	margin-bottom: 20px;
+}
+
+
+
+/*---------------FIN RECUPERAR CONTRASEÑA---------------------------------------------------------------------------*/
+
+
+/*-----------------CAROUSEL------------------------------------------------------------------------------------------*/
+
+/*Defino el tamaño de las imagenes*/
+/*.img-responsive{
+	min-height: 200px;
+	max-height: 500px;
+}*/
+/*Subo el carousel contra el navbar y defino el ancho*/
+ .carousel-1{margin-top: 0px;
+ 	margin-left: 5%;
+ 	margin-right: 5%;
+ }
+
+.carousel-indicators{margin-bottom: 1%;}/*Le doy un margen a los indicadores*/
+
+/*Cambio el color a los indicadores y los separo un poco entre ellos*/
+.carousel-indicators li{
+	background-color: #ecf42a;
+	margin-left: 2%;
+}
+/*-----------------FIN CAROUSEL--------------------------------------------------------------------------------------*/
+
+/*---------------BARRA BUSQUEDA Y FILTRO------------------------------------------------------------------------------*/
+
+.barra-busqueda{
+	
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	height: 88px;
+	width: 400px;
+
+	background-color: black;
+}
+
+
+.barra-busqueda .filtrar{
+	padding-top: 2px;
+	padding-bottom: 2px;
+        
+
+
+}
+
+.barra-busqueda .busqueda{
+	padding-top:  6px;
+}
+
+/*---------------FIN BARRA BUSQUEDA Y FILTRO-------------------------------------------------------------------------*/
+
+
+
+/*---------------VENTANA FILTRO--------------------------------------------------------------------------------------*/
+
+/*COLOR Y FORMATO DEL TÍTULO*/
+.filtros .modal-header h3{
+	color: white;
+	font-weight: lighter;
+	font-style: italic;
+}
+
+
+
+/*COLOR DEL FONDO Y REDONDEO LA PARTE CENTRAL*/
+.filtros .modal-content{
+	background-color: #eaebea;
+	border-radius: 55px;	
+}
+
+
+/*COLOR DEL FONDO ENCABEZADO Y REDONDEO LA PARTE SUPERIOR*/
+.filtros .modal-header{
+	border-top-right-radius: 50px;
+	border-top-left-radius: 50px;
+	background-color: #2f312e;
+}
+
+
+/*COLOR AL FOOTER DE LA VENTANA*/
+.filtros .modal-footer{
+	background-color: #2f312e;
+	border-bottom-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+}
+
+.filtrar{
+	background-color: black;
+	color:#f3ed17;
+        margin-bottom: 10px;
+}	
+/*---------------FIN VENTANA FILTRO--------------------------------------------------------------------------------------*/
+
+
+
+/*-----------------BARRA NOVEDADES-----------------------------------------------------------------------------------*/
+.breadcrumb{
+	background-color:  #2f312e;
+	margin-left: 4.8%;
+	margin-right: 4.8%;	
+	margin-top: 2%;
+	margin-bottom: 0px;
+	height: 55px;
+	display: block;
+    text-align: center;
+}
+
+.breadcrumb h3{color: #f3ed17;}
+.breadcrumb h3:hover{color: white;}
+.breadcrumb h6{margin-top: 20px;}
+
+/*-----------------FIN BARRA NOVEDADES-----------------------------------------------------------------------------------*/
+
+
+
+
+/*-----------------ARTÍCULOS---------------------------------------------------------------------------------------------*/
+
+.productos .card-body{	height: 190px;} /*DEFINO LA ALTURA DEL PRODUCTO*/
+
+
+
+/*LE DOY FORMA Y COLOR AL CONTENEDOR DEL PRODUCTO*/
+.productos .card{							
+	background-color: #2f312e;
+	border-width: 6px;
+	border-radius: 5px;
+}
+
+/*LE SACO LOS MARGENES AL CONTENEDOR DE TODOS LOS PRODUCTOS*/
+.productos .album .row{
+	margin-right: 0px;
+	margin-left: 0px;
+	
+}
+
+.productos .album{
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+.productos .card-body h6{color: white;
+	height: 65px;} /*LE DOY COLOR AL NOMBRE DEL PRODUCTO Y TAMAÑO*/
+.productos .card-body p{color: white;} /*LE DOY COLOR AL PRECIO*/
+
+/*LE DOY COLOR AL PRODUCTO RESALTADO*/
+.productos .coll:hover .card-body{
+	box-shadow: 0 3px 5px 0 rgba(255,233, 0, 1), 0 8px 15px 0 rgba(255, 255, 0, 1);
+	border-radius: 5px;
+	margin-bottom: 0px ;
+}
+/*LE DOY COLOR AL NOMBRE DEL PRODUCTO RESALTADO */
+.productos .coll:hover .card-body h6{
+	color: #f3ed17;
+	text-decoration: underline #2f312e;/*SACO EL SUBRRAYADO, POR DEFECTO ME HACE UNO EN COLOR AZUL*/
+}
+
+.productos .card-body h6{
+	font-weight: lighter;
+	font-style: italic;
+        font-size: 18px;
+}
+
+/*LE DOY MARGEN AL CONTENEDOR DE LOS PRODUCTOS*/
+.productos .cont-novedades{
+	padding-right: 3.7%;
+	padding-left: 3.7%;
+}
+
+
+/*EDITO EL BOTÓN AGREGAR AL CARRITO*/
+.productos .card-body .fa-cart-plus{
+	font-size: 140%;
+	width: 30px;
+	color: #f3ed17;
+}
+/*EDITO EL BOTÓN AGREGAR*/
+.productos .card-body .btn{
+	color: #f3ed17;
+	border-color: grey;
+	  }
+
+.productos .card-body .btn:hover{
+	background-color: grey;
+	color: #f3ed17;
+}
+/*EDITO EL BOTÓN ELIMINAR*/
+.productos .card-body .btnEliminar{
+	color: #f3ed17;
+	border-color: grey;
+	  }
+
+.productos .card-body .btnEliminar:hover{
+	background-color: black;
+	color: red;
+}
+/*ALTO DE LA IMAGEN, PARA QUE AL PONER DE DISTINTO FORMATO NO CAMBIE*/
+.productos .img-articulo{
+height: 235px;
+}
+
+.productos  .sinProductos{
+
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-weight: lighter;
+    font-style: italic;
+}
+/*--------------FIN ARTÍCULOS-------------------------------------------------------------------------------------------*/
+
+
+
+
+/*--------------FOOTER--------------------------------------------------------------------------------------------------*/
+
+.footer p{
+        margin-top: 4px;
+	margin-bottom: 0px;
+	color: white;
+        font-size: 14px;
+}
+/*LE DOY MARGEN A LA IMAGEN PARA QUE ME QUEDDE CENTRADA*/
+.footer img{margin-left: 60px;}
+
+
+/*--------------FIN FOOTER----------------------------------------------------------------------------------------------*/
+
+
+/*--------------REGISTRO DE USUARIO-------------------------------------------------------------------------------------*/
+.registro form {
+	margin-top: 20px;
+}
+
+/*LE DOY FORMATO AL FONDO DEL FORMULARIO*/
+.registro .tumb {
+	padding-top: 0px;
+	margin-top: 50px;
+	border-radius: 10px;
+	background-color:  #2f312e;
+}
+
+.registro .foto{
+	padding-top: 0px;
+
+	border-radius: 10px;
+	background-color: #2f312e;
+	max-height: 700px;
+}
+
+
+/*LE DOY FORMATO AL TITULO DEL FORMULARIO */
+.registro .tumb h4 {
+	text-align: center;
+	color: white; 
+	padding-top: 20px;
+	font-weight: lighter;
+	font-style: italic;	
+}
+
+/*CENTRO LOS BOTONES*/
+.registro .botones
+{	
+	margin-top: 15px;
+	padding-bottom: 15px;
+}
+
+
+
+.registro .btn-primary{
+	margin-left: 20px;
+}
+
+.registro .boton {
+	padding-left: 20px;
+	padding-right:20px;
+
+}
+/*LE DOY FORMATO A LA IMAGEN*/
+.registro .imgreg{
+	margin-top: 0px;
+	margin-left: 0%;
+	max-height: 500px;
+	max-width: 500px;
+	border-radius: 0px;
+
+}
+
+
+/*SEPARO UN POCO EL CONTENEDOR DEL FOOTER*/
+.registro .container{
+	margin-bottom: 20px;
+}
+
+/*DOY FORMATO A LOS CAMPOS DIRECCION*/
+.registro .direccion{
+	background-color: #2f312e;
+	border-radius: 5px;
+	border: 1px solid white;
+	margin-top: 5px;
+	margin-bottom: 7px;
+}
+
+.registro .modal-header{
+	padding: 0px;
+}
+
+.registro .direccion h5{
+	color: white;
+	font-weight: lighter;
+	font-style: italic;
+	margin-bottom: 2px;
+}
+
+.registro .direccion .localidad{
+	margin-bottom: 5px;
+}
+.registro .direccion .calle{
+	margin-bottom: 5px;
+}
+.registro .direccion .numero{
+	margin-bottom: 5px;
+}
+
+.registro .direccion .piso{
+	margin-bottom: 5px;
+}
+.registro .direccion .departamento{
+	margin-bottom: 5px;
+}
+
+
+.registro .direccion .fila{
+	margin-top: 5px;
+}
+
+/*--------------FIN REGISTRO DE USUARIO---------------------------------------------------------------------------------*/
+
+/*--------------PAGINACIÓN----------------------------------------------------------------------------------------------*/
+
+
+.pagination  .page-item .page-link {
+	color: yellow; 
+	border-color: black;
+	background-color: #2f312e;
+}
+.pagination  .page-item .atras{
+	color: grey; 
+	border-color:  black;
+	background-color: #2f312e;
+}
+
+.pagination .activo .page-link{
+	background-color: grey;
+}
+
+.pagination .page-link:hover{
+	color: yellow; 
+	border-color: black;
+	background-color: grey;
+}
+.pagination{
+	margin-bottom: 40px;
+	position: relative;
+}
+
+/*--------------FIN PAGINACIÓN------------------------------------------------------------------------------------------*/
+
+/*--------------CONTACTO------------------------------------------------------------------------------------------------*/
+
+.contacto {
+	margin-bottom: 6%;
+}
+
+.contacto form {
+	margin-top: 20px;
+}
+
+/*LE DOY FORMATO AL FONDO DEL FORMULARIO*/
+.contacto .tumb {
+	padding-top: 0px;
+	margin-top: 70px;
+	border-radius: 10px;
+	margin-left: 20px;
+	background-color:  #2f312e;
+
+}
+
+/*LE DOY FORMATO AL TITULO DEL FORMULARIO */
+.contacto .tumb h4 {
+	text-align: center;
+	color: white; 
+	padding-top: 20px;
+	font-weight: lighter;
+	font-style: italic;	
+}
+
+/*CENTRO LOS BOTONES*/
+.contacto .botones-consulta
+{	
+	display: inline-block;
+	margin-top: 15px;
+	margin-left: 20%;
+}
+
+.contacto .btn-primary{
+	margin-left: 20px;
+}
+
+.contacto .boton-cancelar {
+	padding-left: 10px;
+	padding-right:10px;
+}
+
+.contacto .boton-enviar {
+	padding-left: 17px;
+	padding-right:17px;
+}
+
+/*SEPARO UN POCO EL CONTENEDOR DEL FOOTER*/
+.contacto .container{
+	margin-bottom: 20px;
+}
+/*Le doy color al label Consulta*/
+.contacto .form-group label{
+	color: white;
+}
+
+/*LE DOY FORMATO AL MAPA Y LO CENTRO*/
+.contacto .mapa iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+
+
+}
+
+.contacto .mapa{
+overflow:hidden;
+padding-bottom:60%;
+position:relative;
+height:0;
+}
+
+/*LE DOY FORMATO AL CONTENEDOR DEL MAPA*/
+.contacto .card{
+	margin-top: 17%;
+	background-color:#2f312e;
+	border-radius: 10px;
+	margin-left: 4%; 
+}
+/*LE DOY FORMATO AL NOMBRE ARRIBA DEL MAPA*/
+.contacto .card h3{
+	padding-top: 5px;
+	text-align: center;
+	color: white;
+	font-weight: lighter;
+	font-style: italic;	
+}
+
+.contacto .card-body{
+	padding-top: 0px;
+}
+
+/*--------------FIN CONTACTO--------------------------------------------------------------------------------------------*/
+
+/*--------------MIS DATOS-----------------------------------------------------------------------------------------------*/
+
+.misDatos form {
+	margin-top: 20px;
+}
+
+/*LE DOY FORMATO AL FONDO DEL FORMULARIO*/
+.misDatos .tumb {
+	padding-top: 0px;
+	margin-top: 60px;
+	margin-bottom: 50px;
+	border-radius: 10px;
+	background-color:  #2f312e;
+}
+
+/*LE DOY FORMATO AL TITULO DEL FORMULARIO */
+.misDatos .tumb h4 {
+	text-align: center;
+	color: white; 
+	padding-top: 20px;
+	font-weight: lighter;
+	font-style: italic;	
+}
+.misDatos .tumb h6 {
+	color: white; 
+	font-weight: lighter;
+	font-style: italic;	
+}
+
+
+.misDatos .btn-primary{
+	margin-left: 10px;
+}
+
+/*SEPARO UN POCO EL CONTENEDOR DEL FOOTER*/
+.misDatos .container{
+	margin-bottom: 20px;
+}
+
+.misDatos .danger{
+    margin-bottom: 10px;
+}
+
+
+
+/*--------------FIN MIS DATOS-------------------------------------------------------------------------------------------*/
+
+/*--------------VENTANAS MIS DATOS--------------------------------------------------------------------------------------*/
+.modificacionDatos .modal-header h5{
+	color: white;
+	font-weight: lighter;
+	font-style: italic;	
+}
+.modificacionDatos .modal-body {
+        background-color: #f2f2f2;
+}
+
+.modificacionDatos .modal-header{
+
+	background-color: #2f312e;
+}
+
+.modificacionDatos .modal-footer{
+	background-color: #2f312e;
+}
+
+.modificacionDatos .nombre{
+    border-color: grey;
+}
+
+.modificacionDatosCon .modal-header  h5{
+	color: white;
+	margin-left: 25%;
+	font-weight: lighter;
+	font-style: italic;	
+}
+.modificacionDatosCon .modal-header{
+
+	background-color: #2f312e;
+}
+
+.modificacionDatosCon .modal-footer{
+	background-color: #2f312e;
+}
+
+/*DOY FORMATO A LOS CAMPOS DIRECCION*/
+
+.modificacionDatoDir .modal-header h5{
+	color: white;
+	font-weight: lighter;
+	font-style: italic;
+	margin-bottom: 2px;
+}
+
+.modificacionDatoDir .direccion .localidad{
+        border-color: grey;
+	margin-bottom: 5px;
+}
+.modificacionDatoDir .direccion .calle{
+       border-color: grey;
+       margin-bottom: 5px;
+}
+.modificacionDatoDir .direccion .numero{
+      border-color: grey;
+      margin-bottom: 5px;
+}
+
+.modificacionDatoDir .direccion .piso{
+        border-color: grey;
+	margin-bottom: 5px;
+}
+.modificacionDatoDir .direccion .departamento{
+        border-color: grey;
+	margin-bottom: 5px;
+}
+
+
+.modificacionDatoDir .direccion .fila{
+      
+	margin-top: 5px;
+}
+
+.modificacionDatoDir .modal-header{
+    background-color: #2f312e;
+}
+
+.modificacionDatoDir .modal-footer{
+    background-color: #2f312e;
+}
+
+
+.modificacionDatoDir .container{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.fa-exclamation-triangle{
+    color: red;
+}
+
+
+/*--------------FIN VENTANAS MIS DATOS----------------------------------------------------------------------------------*/
+
+
+/*--------------MIS COMPRAS---------------------------------------------------------------------------------------------*/
+
+/*Doy formato a los titulos de la tabla*/
+.misCompras th{
+	font-style: italic;
+	color: #f3ed17;
+	vertical-align:middle;
+}
+
+.misCompras td{
+	color: white;
+	vertical-align:middle;
+}
+
+.misCompras td a{
+	color: white;
+}
+
+.misCompras td a:hover{
+	color: #f3ed17;
+}
+
+.misCompras form {
+	margin-top: 20px;
+}
+
+/*LE DOY FORMATO AL FONDO DEL FORMULARIO*/
+.misCompras .tumb {
+	padding-top: 0px;
+	margin-top: 45px;
+	border-radius: 10px;
+	background-color:  #2f312e;
+	margin-bottom: 20px;
+}
+
+/*LE DOY FORMATO AL TITULO DEL FORMULARIO */
+.misCompras .tumb h4 {
+	text-align: center;
+	color: white; 
+	padding-top: 15px;
+	padding-bottom: 5px;
+	font-weight: lighter;
+	font-style: italic;	
+}
+.misCompras .tumb h6 {
+	text-align: center;
+	color: white; 
+	padding-top: 0px;
+	padding-bottom: 10px;
+	font-weight: lighter;
+	font-style: italic;	
+}
+
+
+/*SEPARO UN POCO EL CONTENEDOR DEL FOOTER*/
+.misCompras .container{
+	margin-bottom: 30px;
+}
+/*CAMBIO EL TAMAÑO DEL ICONO ELIMINAR*/
+.misCompras td a  .fa-times-circle{
+	color: red;
+	font-size: 25px;
+    }
+.fa-times-circle{
+	color: red;
+	font-size: 25px;
+    }
+.fa-list-ul{
+        font-size: 20px;
+    } 
+.fa-shopping-bag{
+       font-size: 19px; 
+    }    
+/*--------------FIN MIS COMPRAS-------------------------------------------------------------------------------------------*/
+
+
+/*-----------------CARRITO-----------------------------------------------------------------------------------------------*/
+
+.carrito .modal-dialog{
+    border-top-right-radius:30px ;
+    border-top-left-radius: 30px;
+}
+/*COLOR Y FORMATO DEL TÍTULO*/
+.carrito .modal-header h3{
+	color: white;
+	font-weight: lighter;
+	font-style: italic;
+        
+}
+
+/*LE DOY TAMAÑO Y CENTRO EL CAMPO CANTIDAD DE PRODUCTO*/
+.carrito td input{
+	width: 30px;
+	text-align: center;
+}
+
+/*CAMBIO EL TAMAÑO DEL ICONO ELIMINAR*/
+.carrito td a  .fa-times-circle{
+	color: red;
+	font-size: 25px;
+}
+
+/*COLOR DEL FONDO Y REDONDEO LA PARTE CENTRAL*/
+.carrito .content{
+	background-color: white;
+	border-radius: 180px;
+}
+/*COLOR DEL FONDO ENCABEZADO Y REDONDEO LA PARTE SUPERIOR*/
+.carrito .carrito{
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	background-color: #2f312e;
+}
+.carrito .misCompras{
+
+	background-color: #2f312e;
+}
+
+/*DOY FORMATO A LOS TITULOS DE LA TABLA */
+.carrito th{
+	font-style: italic;
+	color: #f3ed17;
+}
+
+/*DOY COLOR AL TEXTO DE LA TABLA Y CENTRO LOS ELEMENTOS*/
+.carrito td{color: black;
+			min-width: 130px;
+			display: table-cell;
+   			vertical-align: middle;
+   		}
+.carrito .alinear{padding-left: 4.5%;}   		
+.carrito td a{color: black;}
+.carrito td a:hover{color: #f3ed17;}
+
+
+/*COLOR AL ENCABEZADO DE LA TABLA*/
+.carrito .success{background-color:#2f312e;}
+.carrito .success:hover{background-color:#2f312e;}
+
+/*COLOR AL FONDO DE LOS RENGLONES DE LA TABLA*/
+.carrito td{background-color:#a3acdb;}
+
+/*COLOR AL FOOTER DE LA VENTANA*/
+.carrito .modal-footer{
+	background-color: #2f312e;
+}
+
+/*DOY FORMATO BOTONES DE CANTIDAD*/
+.carrito .btn-outline-secondary{
+	background-color: white;
+	color: black;
+	width: 30px;
+}
+
+/*CENTRO BOTONES DE CANTIDAD*/
+.carrito .input-group{
+	margin-left: 10%;
+	  }
+/*EDITO LA IMAGEN DEL PRODUCTO DEL CARRITO*/          
+.carrito img{
+          border-radius: 10px;
+          height: 70px;
+          border: 1px solid black;
+          
+          }
+
+/*---------------FIN CARRITO--------------------------------------------------------------------------------------------------*/
+
+
+
+/*---------------DETALLE PRODUCTO----------------------------------------------------------------------------------------------*/
+
+/*FORMATO AL NÓMBRE DEL PRODUCTO*/
+.detalle-producto h2{
+		border-bottom: 2px solid grey;
+		font-style: italic;
+		color: #2f312e;
+	  }
+
+.detalle-producto .columna{
+	padding-right: 5%;
+	padding-left: 5%;
+	}
+
+.detalle-producto .col2{
+	padding-left: 10%;
+}
+
+/*FORMATO A LA IMAGEN*/
+.detalle-producto img{
+	border: 3px solid black;
+	border-radius: 15px;
+        max-height: 380px;
+}
+
+/*LE DOY TAMAÑO Y CENTRO EL CAMPO CANTIDAD DE PRODUCTO*/
+.detalle-producto input{
+	width: 40px;
+	text-align: center;
+        
+}
+
+.detalle-producto .input-group-prepend .btn{
+	color: #f3ed17;
+	background-color: #2f312e;
+	border-color: black;
+}
+
+.detalle-producto .input-group-prepend .btn:hover{
+	color: #f3ed17;
+	background-color: grey;
+}
+
+.detalle-producto .input-group-append .btn{
+	color: #f3ed17;
+	background-color: #2f312e;
+	border-color: black;
+}
+
+.detalle-producto .input-group-append .btn:hover{
+	color: #f3ed17;
+	background-color: grey;
+}
+
+
+.detalle-producto .precio{
+	font-weight: lighter;
+	font-style: italic;	
+}
+
+.detalle-producto .cantidad{
+	margin-top: 8%;
+	font-weight: lighter;
+	font-style: italic;	
+}
+
+
+
+.detalle-producto .pre{
+	margin-left: 50%; 
+}
+
+.detalle-producto .cant{
+	margin-left: 17%; 
+}
+
+.detalle-producto .btn-comprar:hover{
+	background-color: #2f312e;
+	color: white;
+}
+
+.detalle-producto .btn-comprar{
+	background-color: #2f312e;
+	color: #f3ed17;
+	margin-top: 7%;
+}
+
+.detalle-producto .volver{
+	color: #2f312e;
+}
+.detalle-producto .btn-eliminar{
+        margin-left: 4px;
+	background-color: #2f312e;
+	color: red;
+	margin-top: 7%;
+}
+
+.detalle-producto .btn-eliminar:hover{
+	background-color: red;
+	color: white;
+}
+
+.detalle-producto h3{
+		border-bottom: 2px solid grey;
+		font-style: italic;
+		color: #2f312e;
+		text-align: center;
+	  }
+
+/*FORMATO A LA TABLA*/
+.detalle-producto .table{
+	background-color: #2f312e;
+	border-radius: 15px;
+	margin-bottom: 5%;
+
+}
+
+/*COLOR A LOS ELEMENTOS DE LA TABLA*/
+.detalle-producto th{
+	vertical-align:middle;
+	color: #f3ed17;
+}
+
+.detalle-producto td{
+	vertical-align:middle;
+	max-width: 500px;
+	color: white;
+}
+
+/*---------------FIN DETALLE PRODUCTO----------------------------------------------------------------------------------------------*/
+
+
+/*--------------USUARIOS----------------------------------------------------------------------------------------------------*/
+/*Doy formato a los titulos de la tabla*/
+.usuarios th{
+	font-style: italic;
+	color: #f3ed17;
+	vertical-align:middle;
+}
+
+
+.usuarios td{
+	color: white;
+	vertical-align:middle;
+}
+
+.usuarios td a{
+	color: white;
+}
+
+.usuarios td a  .fa-times-circle{
+	color: red;
+	font-size: 25px;
+}
+
+.usuarios td a:hover{
+	color: #f3ed17;
+}
+
+.usuarios form {
+	margin-top: 20px;
+}
+
+/*LE DOY FORMATO AL FONDO DEL FORMULARIO*/
+.usuarios .tumb {
+	padding-top: 0px;
+	margin-top: 45px;
+	border-radius: 10px;
+	background-color:  #2f312e;
+	margin-bottom: 20px;
+}
+
+/*LE DOY FORMATO AL TITULO DEL FORMULARIO */
+.usuarios .tumb h4 {
+	text-align: center;
+	color: white; 
+	padding-top: 15px;
+	padding-bottom: 10px;
+	font-weight: lighter;
+	font-style: italic;	
+}
+
+/*SEPARO UN POCO EL CONTENEDOR DEL FOOTER*/
+.usuarios .container{
+	margin-bottom: 30px;
+}
+
+
+
+/*--------------FIN USUARIOS------------------------------------------------------------------------------------------------*/
+
+
+
+/*--------------VENTANA ELIMINAR USUARIO-----------------------------------------------------------------------------------*/
+.ventanasUsuario .modal-header h5{
+	color: white;
+	margin-left: 30%;
+	font-weight: lighter;
+	font-style: italic;	
+}
+
+.ventanasUsuario .modal-header{
+
+	background-color: #2f312e;
+}
+
+.ventanasUsuario .modal-body .centrar{
+	margin-bottom: 0px;
+	vertical-align: middle;
+	margin-left: 0px;
+}
+
+.ventanasUsuario .modal-body .alinear-izquierda{
+	margin-bottom: 15px;
+	vertical-align: middle;
+	margin-left: 0px;
+	text-align: left;
+}
+
+alinear-izquierda
+
+.ventanasUsuario .modal-body label{
+	margin-bottom: 0px;
+	vertical-align: middle;
+	margin-left: 35px;
+}
+
+.ventanasUsuario .modal-footer{
+	background-color: #2f312e;
+}
+
+
+/*--------------FIN VENTANA ELIMINAR USUARIO-------------------------------------------------------------------------------*/
+
+
+
+/*--------------NUEVO PRODUCTO------------------------------------------------------------------------------------------------*/
+
+
+.nuevo-Producto img{
+    border: 3px solid black;
+    border-radius: 15px;
+    width: 40%;
+    margin-bottom: 10px;
+    max-height: 250px;
+}
+.nuevo-Producto form {
+	margin-top: 20px;
+}
+
+/*LE DOY FORMATO AL FONDO DEL FORMULARIO*/
+.nuevo-Producto .tumb {
+	padding-top: 0px;
+	margin-top: 45px;
+	border-radius: 20px;
+	background-color:  #2f312e;
+	margin-bottom: 20px;
+
+}
+
+/*LE DOY FORMATO AL TITULO DEL FORMULARIO */
+.nuevo-Producto .tumb h4 {
+	text-align: center;
+	color: white; 
+	padding-top: 15px;
+	font-weight: lighter;
+	font-style: italic;	
+}
+
+/*SEPARO UN POCO EL CONTENEDOR DEL FOOTER*/
+.nuevo-Producto .container{
+	margin-bottom: 30px;
+}
+
+.nuevo-Producto label{
+	color: white;
+	font-weight: lighter;
+	font-style: italic;
+        margin-bottom: 0px;
+        margin-top: 8px;
+}
+
+.nuevo-Producto .botones{	
+	display: inline-block;
+}
+
+.nuevo-Producto .boton{	
+	margin-right: 5px;
+}
+
+.nuevo-Producto .categoria{	
+	margin-top: 32px;
+}
+
+.nuevo-Producto .btn-cancelar{
+         margin-top: 5px;
+}
+.nuevo-Producto .btns-modificar:hover{
+	background-color: #2f312e;
+	color: white;
+}
+
+.nuevo-Producto .btns-modificar{
+	background-color: #2f312e;
+	color: #f3ed17;
+         margin-left: 2%;
+         margin-top: 5px;
+}
+
+.nuevo-Producto .btn-eliminar{
+
+	background-color: #2f312e;
+	color: red;
+        margin-left: 2%;
+        margin-top: 5px;
+}
+
+.nuevo-Producto .btn-eliminar:hover{
+	background-color: red;
+	color: white;
+}
+
+
+/*--------------MENSAJE ACTUALIZAR PRODCUTO-----------------------------------------------------------------------------------*/
+.mensajeActProd{
+    	font-weight: lighter;
+	font-style: italic;
+        margin-top: 10%;
+}
+.mensaje_volver{
+    
+}
+
+/*--------------FIN MENSAJE ACTUALIZAR PRODCUTO------------------------------------------------------------------------------*/
+/*--------------FIN NUEVO PRODUCTO-------------------------------------------------------------------------------------------*/
+body {
+	background-color: #e0e0e0;
+	}
+
