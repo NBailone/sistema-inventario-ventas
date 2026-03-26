@@ -1,4 +1,4 @@
-# sistema de inventario y ventas
+# Sistema de Gestión de inventario y ventas
 Aplicación web orientada a la gestión de inventario, productos, clientes y operaciones de venta. El sistema permite controlar el stock, registrar transacciones y administrar información comercial de manera eficiente.
 
 ---
