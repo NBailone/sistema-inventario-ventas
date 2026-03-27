@@ -1,5 +1,5 @@
 # Sistema de Gestión de inventario y ventas
-Aplicación web orientada a la gestión de inventario, productos, clientes y operaciones de venta. El sistema permite controlar el stock, registrar transacciones y administrar información comercial de manera eficiente.
+Aplicación web Java EE orientada a la comercialización de productos electrónicos. El sistema permite la gestión completa de inventario, administración de usuarios y procesamiento de ventas con una arquitectura robusta y escalable.
 
 ---
 
@@ -24,20 +24,23 @@ Incluye funcionalidades para la administración de clientes, seguimiento de oper
 
 ---
 
-## 🛠️ Tecnologías utilizadas
+## 🛠️ Tecnologías Utilizadas
 
 ### Backend
-- Java (Servlets, JSP)
-- Arquitectura MVC
-- Patrón DAO (Data Access Object)
+- **Java EE**: Servlets y JSP.
+- **Arquitectura MVC**: Separación de lógica, datos y vista.
+- **Patrón DAO**: Acceso a datos encapsulado.
+- **Servidor**: GlassFish v5.1.
 
 ### Frontend
-- HTML5, CSS3, JavaScript
-- Bootstrap
+- **HTML5, CSS3, JavaScript**.
+- **Bootstrap v4.5**: Diseño responsivo.
+- **Font Awesome**: Iconografía.
 
-### Base de datos
-- MySQL / MariaDB
-- Diseño relacional
+### Base de Datos
+- **MariaDB / MySQL**: Almacenamiento relacional.
+- **Procedimientos Almacenados**: Optimización de consultas complejas.
+- **Connection Pool**: Gestión eficiente de conexiones (Patrón Singleton).
 
 ---
 
@@ -54,24 +57,16 @@ Se utiliza el patrón **DAO** para el acceso a datos, favoreciendo la organizaci
 ---
 
 ## 📁 Estructura del proyecto
-- src/ # Código backend en Java
-- web/ # Vistas JSP y recursos frontend
-- database/ # Scripts SQL (estructura de base de datos)
+ -web-app/ # Aplicación Java Web (Código fuente, librerías y recursos)
+    ├── src/ # Backend en Java (Servlets, DAO, Modelos)
+    ├── web/ # Frontend (Vistas JSP, CSS, JS, Imágenes)
+    ├── libs/ # Librerías y dependencias (.jar)
+    └── build.xml # Archivo de configuración de Ant para compilación
+ -db/ # Scripts SQL (Estructura de la base de datos MariaDB y procedimientos)
+ -docs/diagrams/ # Documentación técnica (Diagramas de Clases y DER)
+ -docs/images/ # Capturas de pantalla y recursos visuales del sistema
 
 ---
-
-## 🔌 Conexión a base de datos
-
-La conexión a la base de datos se implementa mediante el patrón de diseño **Singleton**, a través de una clase `ConnectionPool`.
-
-Esta clase se encarga de:
-- Cargar el driver de la base de datos
-- Establecer la conexión con la base de datos
-- Administrar un pool de conexiones
-- Proveer instancias de tipo `Connection` de manera eficiente
-
-Este enfoque permite optimizar el uso de recursos y mejorar el rendimiento de la aplicación.
-
 
 ## 🔐 Seguridad y autenticación
 
