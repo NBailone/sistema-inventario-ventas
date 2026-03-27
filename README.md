@@ -57,13 +57,13 @@ Se utiliza el patrón **DAO** para el acceso a datos, favoreciendo la organizaci
 ---
 
 ## 📁 Estructura del proyecto
-    web-app/             # Aplicación Java Web (Código fuente, librerías y recursos)
+    web-app/           # Aplicación Java Web (Código fuente, librerías y recursos)
     ├── src/           # Backend en Java (Servlets, DAO, Modelos)
     ├── web/           # Frontend (Vistas JSP, CSS, JS, Imágenes)
     ├── libs/          # Librerías y dependencias (.jar)
     └── build.xml      # Archivo de configuración de Ant para compilación
-    db/                  # Scripts SQL (Estructura de MariaDB y Procedimientos)
-    docs/                # Documentación del proyecto
+    db/                # Scripts SQL (Estructura de MariaDB y Procedimientos)
+    docs/              # Documentación del proyecto
     ├── diagrams/      # Documentación técnica (Diagramas de Clases y DER)
     └── images/        # Capturas de pantalla y recursos visuales
 
